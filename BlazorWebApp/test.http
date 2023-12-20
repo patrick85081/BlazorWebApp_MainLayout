@@ -1,0 +1,12 @@
+POST http://localhost:3968/api/v1/CsNoticeITO/FaqLogInsert HTTP/1.1
+
+{
+  "agentUserNO": "033873",
+  "keyWord": "測試", 
+  "itemClass": {
+     "level1": "衛生局",
+     "level2": "預防注射"
+     },
+  "lineType": "KL1999",
+  "checkHistory": true
+}
